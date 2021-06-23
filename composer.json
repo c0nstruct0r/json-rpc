@@ -17,7 +17,8 @@
         "php": ">=7.4",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "cranetm/yii2-json-rpc-2.0": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.16",
@@ -30,7 +31,8 @@
         "codeception/module-filesystem": "^1.0.0",
         "codeception/module-yii2": "^1.0.0",
         "codeception/module-asserts": "^1.0.0",
-        "codeception/module-rest": "dev-master"
+        "codeception/module-rest": "dev-master",
+      "ext-json": "*"
     },
     "config": {
         "process-timeout": 1800,
