@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "502c9abb7527b9def9480319a0767233",
+    "content-hash": "829d864f8e8f49a795d88380d234adf4",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -166,6 +166,56 @@
                 "source": "https://github.com/cebe/markdown"
             },
             "time": "2020-02-26T01:55:18+00:00"
+        },
+        {
+            "name": "cranetm/yii2-json-rpc-2.0",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cranetm/yii2-json-rpc-2.0.git",
+                "reference": "2e3eeea361b2a6b31ceffaf1d61abf2ee764e3af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cranetm/yii2-json-rpc-2.0/zipball/2e3eeea361b2a6b31ceffaf1d61abf2ee764e3af",
+                "reference": "2e3eeea361b2a6b31ceffaf1d61abf2ee764e3af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonRpc2": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "tmudriy",
+                    "email": "tmudriy@gmail.com"
+                }
+            ],
+            "description": "JSON RPC 2.0 for Yii2 strict type validation of request and response data",
+            "keywords": [
+                "json",
+                "json-rpc",
+                "json-rpc-2.0",
+                "json-rpc2",
+                "jsonrpc",
+                "jsonrpc2",
+                "rpc",
+                "rpc2",
+                "yii",
+                "yii2"
+            ],
+            "time": "2017-01-17T22:47:25+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -5574,6 +5624,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "cranetm/yii2-json-rpc-2.0": 20,
         "codeception/module-rest": 20
     },
     "prefer-stable": false,

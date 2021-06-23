@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="yii2.local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="yii2.local">
+  <configuration default="false" name="rpc.local" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="rpc.local">
     <method v="2" />
   </configuration>
 </component>
